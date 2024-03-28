@@ -2,7 +2,7 @@ if (-not (test-path -path "$Env:temp\speedtest.exe"))
 {
 write-host "non present"
 $sWebRequest = @{
-    Uri = 'https://github.com/TECHCSID/BPtest/raw/main/speedtest.exe'
+    Uri = 'https://github.com/ByvPhil/BPTest/raw/main/speedtest.exe'
     OutFile = "$Env:temp\speedtest.exe"
 }
 Invoke-WebRequest @sWebRequest
