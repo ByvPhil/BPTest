@@ -33,3 +33,5 @@ $resultLA = $array3.split(',')[0]
 $res3 = [math]::round($resultLA,2)
 
 write-output "$PourRG ;Ping: $res3 ms ;ISP:$resultISP"
+# Ajoutez la commande exit pour fermer PowerShell
+exit
